@@ -1,0 +1,16 @@
+# Conda Dependecies to be reproduced in a virtual environment
+
+# Details about the Conda environment file format:
+# https://conda.io/docs/user-guide/tasks/manage-environments.html#create-env-file-manually
+
+name: MyProjectName
+dependencies: 
+# All the dependencies available in Conda or Anaconda directly
+- python=3.6.10
+- pip
+- pip:
+    # All the Python dependencies are imported from the requirements.txt file
+    - -r file:requirements.txt
+channels:
+    - conda-forge
+

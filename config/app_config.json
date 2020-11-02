@@ -1,0 +1,13 @@
+{ 
+    "parameterName": "parameterValue",
+    "otherParam": 123,
+
+    "training": {
+        "acceptanceThreshold": 89.9
+
+    },
+
+    "scoring": {
+
+    }
+}
